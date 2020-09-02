@@ -1,0 +1,53 @@
+<html> <!-- Tag de Início da linguagem de marcação -->
+    <head> <!-- Tag de Início do Cabeçalho da página -->
+	
+	<meta http-equiv="Content-type" content="text/html; charset="UTF-8"> 
+	<title>HTML Aula 01</title>
+		
+    </head> <!-- Fim da Tag de Cabeçalho -->
+
+    <body bgcolor="" background="img/html-basico-v.2.jpg" text="orange" link="red" alink="green" vlink="orange">	<!-- Tag de Início do corpo da página -->
+	<a name="topo"></a>
+
+	<h1> Exemplo 1 - Hyperlinks </h1>
+
+	<a href="http://www.google.com.br" target="_blank" 	title="Site do Google"> Clique aqui </a>
+
+	<h2> Exemplo 2 - Imagens </h2>
+
+	<p align="center">
+	    <img src="img/html-basico-v.2.jpg" 	width="300" height="200" alt="Construção 		HTML" border="5">
+	</p>
+
+	<br> <!-- Quebra de linha -->
+		
+	<marquee direction="right">
+	    <img src="img/andando.gif" width="" height="" alt="andando" />
+	</marquee>
+
+	<!-- Não passei para os alunos ainda -->
+
+	<br>
+
+	<a href="http://www.linkedin.com.br" target="_blank" title="Rede Profissional">
+		<img src="img/Linkedin-logo-8.png" width="400" height="150" alt="Rede Profissional" border="5">
+	</a>
+
+	<br>
+
+	<audio controls autoplay>
+		<source src="audio/Weapon.mp3" type="audio/mp3">
+	</audio>
+
+	<br>
+
+	<video controls width="" height="">
+		<source src="video/Brasil.mp4" type="video/mp4">
+	</video>
+
+	<h6> Exemplo 6 - Ancora </h6>
+
+	<a href="#topo"> Voltar ao topo </a>
+
+    </body>	<!-- Fim da Tag do corpo da pagina -->
+</html> <!-- Fim da Tag de linguagem de Marcação -->
