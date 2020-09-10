@@ -5,6 +5,7 @@
     float: left;
     width: 15%;
     height: 100%;
+    margin-left: -20px;
 }
 .rightbox {
     float: right;
@@ -12,4 +13,5 @@
     height: 98%;
     position: absolute;
     border: none;
+    right: 10px;
 }
