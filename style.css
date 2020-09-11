@@ -1,15 +1,16 @@
 .background {
-    /* background-color: blue; */
+    background-color: #D3D3D3;
 }
 
 .form {
     border-radius: 10px;
-    background: lightblue;
+    background:	#FFFFFF;
     margin-right: -50%;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    border: 3px solid DeepSkyBlue;
 }
 
 #input {
@@ -24,9 +25,11 @@
 #button {
     border-radius: 10px;
     margin-left: 25%;
+    background-color: DeepSkyBlue;
 }
 
 #button:hover {
-    background-color: blue;
+    background-color: RoyalBlue;
+    color: White;
     cursor: pointer;
 }
