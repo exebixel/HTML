@@ -21,3 +21,12 @@
     font-size: 14px;
 }
 
+#button {
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+#button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
