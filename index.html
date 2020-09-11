@@ -3,59 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Atividade 8 - Iframe</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+    <title>Atividade 9 - Formulário</title>
   </head>
+
   <body class="background">
-    <div class="leftbox">
-      <ol>
-        <li><a href="https://www.youtube.com/embed/O76ZfAIEukE" target="video">Mercado de TI</a></li>
-        <li><a href="https://www.youtube.com/embed/Qb5b8ZE9tIY" target="video">Dimensão do tempo</a></li>
-        <li><a href="https://youtube.com/embed/sx4hAHhO9CY" target="video">Conhecimentos Básicos</a></li>
-        <li><a href="https://youtube.com/embed/epiyExCyb2s" target="video">Guia do Ubuntu</a></li>
+    
+      <table class="form">
+        <form accept-charset="utf-8">
 
-        <li><a href="https://youtube.com/embed/VKmPGmFY7H4" target="video">História do Front-End</a></li>
+          <tr>
+            <th>Cadastro</th>
+          </tr>
+          <tr>
+            <td>
+              <label class="description" for="nome">Nome:</label>
+              </br>
+              <input type="text" name="nome" id="input" 
+              placeholder="Digite seu nome"/>
+            </td>
+          </tr>
 
-        <li><a href="https://youtube.com/embed/Qjk-cSW-jk4" target="video">História do Back-End</a>
-          <ol>
-            <li><a href="https://youtube.com/embed/Qjk-cSW-jk4" target="video">Parte</a></li>
-            <li><a href="https://youtube.com/embed/N6vgZr1k03g" target="video">Parte</a></li>
+          <tr>
+            <td>
+              <label class="description" for="email">E-mail:</label>
+              </br>
+              <input type="email" name="email" id="input" 
+              placeholder="Digite seu email"/>
+            </td>
+          </tr>
 
-            <li> 
-              <a href="https://youtube.com/embed/cx1ULv4wYxM" target="video">Concorrência e Paralelismo</a>
-              <ol>
-                <li><a href="https://youtube.com/embed/cx1ULv4wYxM" target="video">Parte</a></li>
-                <li><a href="https://youtube.com/embed/gYJSWs-gp1g" target="video">Parte</a></li>
-              </ol>
-            </li>
+          <tr>
+            <td>
+              <label class="description" for="telefone">Telefone:</label>
+              </br>
+              <input type="tel" name="telefone" id="input" 
+              placeholder="Digite seu telefone"/>
+            </td>
+          </tr>
 
-            <li>
-              <a href="https://youtube.com/embed/9AK_1gqEfkQ" target="video">Gerenciamento de Memoria</a>
-              <ol>
-                <li><a href="https://youtube.com/embed/9AK_1gqEfkQ" target="video">Parte</a></li>
-                <li><a href="https://youtube.com/embed/DGU1awKrNiA" target="video">Parte</a></li>
-              </ol>
-            </li>
-
-          </ol>
-        </li>
-
-        <li>
-          <a href="https://youtube.com/embed/bwO8EZf0gLI" target="video">DevOps</a>
-          <ol>
-            <li><a href="https://youtube.com/embed/bwO8EZf0gLI" target="video">Parte</a></li>
-            <li><a href="https://youtube.com/embed/mcwnQVAn0pw" target="video">Parte</a></li>
-            <li><a href="https://youtube.com/embed/EdOkYEE1J_Y" target="video">Parte</a></li>
-          </ol>
-        </li>
-
-      </ol>
-    </div>
-
-    <iframe  src="https://www.youtube.com/embed/O76ZfAIEukE" 
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-      class="rightbox" name="video">
-    </iframe>
+        </form>
+      </table>
 
   </body>
 </html>

@@ -1,17 +1,23 @@
 .background {
-    background-color: silver;
+    /* background-color: blue; */
 }
-.leftbox {
-    float: left;
-    width: 15%;
-    height: 100%;
-    margin-left: -20px;
-}
-.rightbox {
-    float: right;
-    width: 84%;
-    height: 98%;
+
+.form {
+    border-radius: 10px;
+    background: lightblue;
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
     position: absolute;
-    border: none;
-    right: 10px;
+    transform: translate(-50%, -50%);
 }
+
+#input {
+    border-radius: 10px;
+    border-color: lightblue;
+}
+
+.description {
+    font-size: 14px;
+}
+
