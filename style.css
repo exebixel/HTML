@@ -11,6 +11,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     border: 3px solid DeepSkyBlue;
+    padding: 10px;
 }
 
 #input {

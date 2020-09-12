@@ -46,7 +46,21 @@
             <td>
               <label class="description" for="data">Data de nascimento:</label>
               </br>
-              <input type="date" name="date" id="input" size="40"/>
+              <input type="date" name="date" id="input" 
+                size="40" style="width: 100%"/>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label class="description" for="sexo">Sexo:</label>
+              </br>
+              <select name="sexo" id="input" 
+                style="width: 100%">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                
+              </select>
             </td>
           </tr>
 
@@ -61,6 +75,7 @@
 
           <tr>
             <td>
+              </br>
               <input type="checkbox" name="notificacao" id="input" 
                 style="height: auto" checked/>
               <label class="description" for="notificacao">Notificações por E-mail</label>
@@ -69,6 +84,7 @@
 
           <tr class="button">
             <td>
+              </br>
               <input type="button" value="Finalizar!" name="finalizar" id="button"/>
             </td>
           </tr>
