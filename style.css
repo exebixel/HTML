@@ -12,6 +12,7 @@ div.nav {
   text-align: center;
   margin-right: 30px;
   padding: 10px;
+  z-index: 100;
 }
 
 #background-logo {
@@ -49,4 +50,17 @@ div.textleft {
   width: 49%;
   float: left;
   height: 100%;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 45%;
 }
