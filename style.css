@@ -41,7 +41,7 @@ div.imgright {
 }
 
 div.textright {
-  width: 49%;
+  width: 48%;
   float: right;
   height: 100%;
 }
@@ -63,4 +63,25 @@ h1 {
   margin-top: auto;
   margin-bottom: auto;
   top: 45%;
+}
+
+h2 {
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p.description {
+  font-size: 20px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+.price {
+  display: flex;
+}
+
+.price p {
+  font-size: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  align-self: flex-end;
 }
