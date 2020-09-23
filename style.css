@@ -1,0 +1,9 @@
+div.view {
+  height: 97vh;
+  border: solid;
+}
+
+p.center {
+  text-align: center;
+  border-bottom: 5px solid green;
+}
