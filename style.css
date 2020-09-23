@@ -7,3 +7,16 @@ p.center {
   text-align: center;
   border-bottom: 5px solid green;
 }
+
+div.margin {
+  border-style: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  text-align: justify;
+}
