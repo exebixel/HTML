@@ -12,6 +12,7 @@ div.margin {
   border-style: solid;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 20px;
 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -19,4 +20,17 @@ div.margin {
   padding-right: 20%;
 
   text-align: justify;
+}
+
+div.border {
+  border-top-style: dotted;
+  border-top-color: green;
+
+  border-right-style: double;
+  border-right-color: red;
+  border-right-width: 10px;
+
+  border-bottom: groove blue;
+
+  border-left-style: none;
 }
