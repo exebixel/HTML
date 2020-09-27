@@ -14,6 +14,36 @@ div {
   margin-right: 30px;
   margin-left: 30px;
 }
+
 .geral {
   width: 960px;
+}
+
+.topo {
+  width: 900px;
+  height: 240px;
+}
+
+.menu {
+  width: 900px;
+  height: 60px;
+}
+
+.lateral {
+  width: 200px;
+  height: 700px;
+  float: left;
+  margin-right: 0px;
+}
+
+.conteudo {
+  width: 670px;
+  height: 700px;
+  float: right;
+  margin-left: 0px;
+}
+
+.rodape {
+  width: 900px;
+  height: 50px;
 }
