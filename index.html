@@ -6,50 +6,104 @@
     <title>Formulario 1</title>
   </head>
   <body>
-    <h1>Deixe um comentário</h1>
+
+    <h3>SISTEMA DA GESTÃO ACADÊMICA</h3>
+    <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+
     <table>
       <form>
+
         <tr>
           <td>
-            <label>Nome:</label>
+            <label for="login">Login:</label>
+          </td>
+          <td>
+            <input type="text" name="login" id="login"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="senha">Senha:</label>
+          </td>
+          <td>
+            <input type="password" name="senha" id="senha"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="status">Status:</label>
+          </td>
+          <td>
+            <select name="status" id="status">
+              <option value="Inativo">Inativo</option>
+              <option value="Ativo">Ativo</option>
+              </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="tipo">Tipo:</label>
+          </td>
+          <td>
+            <input type="radio" name="tipo" id="tipo"/>
+            <label>Técnico</label>
+            <input type="radio" name="tipo" id="tipo"/>
+            <label>Professor</label>
+            <input type="radio" name="tipo" id="tipo"/>
+            <label>Aluno</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="data">Data Criação</label>
+          </td>
+          <td>
+            <input type="date" name="data" id="data"/>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="perfil">Perfil:</label>
+          </td>
+          <td>
+            <input type="radio" name="perfil" id="perfil"/>
+            <label>Convidado</label>
+            <input type="radio" name="perfil" id="perfil"/>
+            <label>Administrador</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="observacao">Observação:</label>
+          </td>
+          <td>
+            <textarea name="observacao" id="observacao" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="modulos">Módulos:</label>
+          </td>
+          <td>
+            <input type="radio" name="modulos" id="modulos"/>
+            <label>Documentação</label>
+            <input type="radio" name="modulos" id="modulos"/>
+            <label>Recursos Humanos</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
             <br>
-            <input type="text" name="nome" id="nome" size="70"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>E-mail:</label>
-            <br>
-            <input type="email" name="email" id="email" size="70"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>Website:</label>
-            <br>
-            <input type="text" name="text" id="text" size="70"/>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>Comentário:</label>
-            <br>
-            <textarea name="comentario" id="comentario" rows="10" cols="55"></textarea>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <label>Observação: Seu comentário será publicado após passar pelo moderador</label>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <input type="submit" value="Enviar Comentário" name="enviar" id="enviar"/>
+            <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar"/>
+            <input type="submit" value="Excluir" name="exclur" id="excluir"/>
           </td>
         </tr>
 
