@@ -7,7 +7,7 @@
   </head>
   <body>
     <table>
-      <form action="index_submit">
+        <form>
         <tr>
           <td>
             <fieldset id="cadastro_geral">
@@ -133,8 +133,19 @@
           <td>
             <fieldset id="comentário">
               <legend>Comentário</legend>
+
+              <label for="mensagem">Mensagem</label>
+              <br>
+              <textarea name="mensagem" id="mensagem" cols="25" rows="10"></textarea>
               
             </fieldset>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" value="Enviar" name="enviar" id="enviar"/>
+            <input type="reset" value="Limpar" name="limpar" id="limpar"/>
           </td>
         </tr>
       </form>
