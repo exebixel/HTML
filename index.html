@@ -6,107 +6,75 @@
     <title>Formulario 1</title>
   </head>
   <body>
-
-    <h3>SISTEMA DA GESTÃO ACADÊMICA</h3>
-    <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
-
     <table>
-      <form>
-
+      <form action="index_submit">
         <tr>
           <td>
-            <label for="login">Login:</label>
-          </td>
-          <td>
-            <input type="text" name="login" id="login"/>
-          </td>
-        </tr>
+            <fieldset id="cadastro_geral">
+              <legend>Cadastro geral</legend>
 
-        <tr>
-          <td>
-            <label for="senha">Senha:</label>
-          </td>
-          <td>
-            <input type="password" name="senha" id="senha"/>
-          </td>
-        </tr>
+              <table>
+                <tr>
+                  <td>
+                    <fieldset id="dados_pessoais" class="">
+                      <legend>Dados pessoais</legend>
 
-        <tr>
-          <td>
-            <label for="status">Status:</label>
-          </td>
-          <td>
-            <select name="status" id="status">
-              <option value="Inativo">Inativo</option>
-              <option value="Ativo">Ativo</option>
-              </select>
-          </td>
-        </tr>
+                      <table>
+                        <tr>
+                          <td>
+                            <label for="nome">Nome completo:</label>
+                            <br>
+                            <input type="text" name="nome" id="nome"/>
 
-        <tr>
-          <td>
-            <label for="tipo">Tipo:</label>
-          </td>
-          <td>
-            <input type="radio" name="tipo" id="tipo"/>
-            <label>Técnico</label>
-            <input type="radio" name="tipo" id="tipo"/>
-            <label>Professor</label>
-            <input type="radio" name="tipo" id="tipo"/>
-            <label>Aluno</label>
-          </td>
-        </tr>
+                            <br><br>
+                            <label for="profissao">Profissão:</label>
+                            <br>
+                            <select name="profissao" id="profissao">
+                              <option value="select">Selecione sua profissão</option>
+                              <option value="policial">Policial</option>
+                              <option value="professor">Professor</option>
+                              <option value="desenvolvedor">Desenvolvedor</option>
+                            </select>
+                          </td>
+                        </tr>
+                      </table>
 
-        <tr>
-          <td>
-            <label for="data">Data Criação</label>
-          </td>
-          <td>
-            <input type="date" name="data" id="data"/>
-          </td>
-        </tr>
+                    </fieldset>
+                  </td>
 
-        <tr>
-          <td>
-            <label for="perfil">Perfil:</label>
-          </td>
-          <td>
-            <input type="radio" name="perfil" id="perfil"/>
-            <label>Convidado</label>
-            <input type="radio" name="perfil" id="perfil"/>
-            <label>Administrador</label>
-          </td>
-        </tr>
+                  <td>
+                    <fieldset id="localizacao">
+                      <legend>Localização</legend>
 
-        <tr>
-          <td>
-            <label for="observacao">Observação:</label>
-          </td>
-          <td>
-            <textarea name="observacao" id="observacao" cols="30" rows="10"></textarea>
-          </td>
-        </tr>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="email"/>
+                        <br><br>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="email"/>
+                      
+                    </fieldset>
+                  </td>
 
-        <tr>
-          <td>
-            <label for="modulos">Módulos:</label>
-          </td>
-          <td>
-            <input type="radio" name="modulos" id="modulos"/>
-            <label>Documentação</label>
-            <input type="radio" name="modulos" id="modulos"/>
-            <label>Recursos Humanos</label>
-          </td>
-        </tr>
+                </tr>
 
-        <tr>
-          <td>
-            <br>
-            <input type="submit" value="Cadastrar" name="cadastrar" id="cadastrar"/>
-            <input type="submit" value="Excluir" name="exclur" id="excluir"/>
-          </td>
-        </tr>
+                <tr>
+                  <td colspan="2">
+                    <fieldset id="faixa_etaria">
+                      <legend>Faixa etária</legend>
+                      
+                    </fieldset>
+                  </td>
+                </tr>
 
+              </table>
+
+
+            </fieldset>
+
+          </td>
+        </tr>       
       </form>
     </table>
   </body>
