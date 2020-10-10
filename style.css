@@ -89,20 +89,9 @@ p.description {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#sobre {
-  text-align: center;
-}
-
-.logo {
-  width: 100px;
-}
-
-#table-logo {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#table-logo td {
-  padding-right: 50px;
-  padding-left: 50px;
+.about {
+  margin: auto;
+  width: 100%;
+  border: none;
+  height: 300px;
 }
