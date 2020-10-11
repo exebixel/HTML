@@ -1,0 +1,36 @@
+.form {
+    border-radius: 10px;
+    background:	#FFFFFF;
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid DeepSkyBlue;
+    padding: 10px;
+}
+
+#input {
+    border-radius: 10px;
+    border-color: lightblue;
+    height: 20px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+#button {
+    border-radius: 10px;
+    margin-left: 50%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: DeepSkyBlue;
+}
+
+#button:hover {
+    background-color: RoyalBlue;
+    color: White;
+    cursor: pointer;
+}
