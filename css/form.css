@@ -6,7 +6,7 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    border: 3px solid DeepSkyBlue;
+    border: 3px solid lightgreen;
     padding: 10px;
 }
 
@@ -14,6 +14,7 @@
     border-radius: 10px;
     border-color: lightblue;
     height: 20px;
+    outline: none;
 }
 
 .description {
@@ -26,11 +27,13 @@
     display: flex;
     margin: auto;
     text-align: center;
-    background-color: DeepSkyBlue;
+    background-color: lightgreen;
+    outline: none;
 }
 
 #button:hover {
-    background-color: RoyalBlue;
+    background-color: Yellowgreen;
     color: White;
     cursor: pointer;
+    outline: none;
 }
