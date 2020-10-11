@@ -5,6 +5,7 @@
 
 img {
   border-radius: 5px;
+  width: 90%;
 }
 
 button {
@@ -22,4 +23,23 @@ button:hover {
   background-color: #DD0;
   cursor: pointer;
   outline: none;
+}
+
+td {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.especificacao {
+  margin-left: 30px;
+}
+
+.especificacao h3{
+  font-size: 25px;
+}
+
+.especificacao p{
+  font-size: 20px;
+  margin-left: 20px;
 }
