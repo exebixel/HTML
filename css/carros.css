@@ -1,3 +1,9 @@
+.title {
+  display: block;
+  position: static;
+  font-size: 80px;
+}
+
 .imgcarro {
   width: 60%;
   height: 60%;
