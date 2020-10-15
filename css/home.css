@@ -1,0 +1,35 @@
+.meio{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.meio .logo{
+    width: 30%;
+    margin-left: 2%;
+}
+
+.meio .social-icons i{ 
+    font-size: 70px;
+    padding: 4px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin: 0 4%;
+    font-size: 20px;
+}
+
+.contato i{
+    font-size: 45px;
+    margin-right: 5px;
+}
+
+.home {
+    width: 100%;
+}
