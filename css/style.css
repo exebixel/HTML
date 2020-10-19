@@ -3,12 +3,17 @@ header ul {
     flex-flow: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background-color: #333333;
+    background-color: #EE1E26;
     padding: 20px;
 }
 
 a {
     color: #FFF;
+    transition: color 0.15s;
+}
+
+a:hover {
+    color: rgb(161, 161, 161);
 }
 
 iframe {
