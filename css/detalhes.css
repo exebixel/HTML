@@ -1,0 +1,36 @@
+.price {
+  font-size: 100px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+img {
+  border-radius: 5px;
+  width: 30%;
+}
+
+button {
+  width: 30%;
+  height: 70px;
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #FF0;
+  border-radius: 10px;
+  box-shadow: 3px 4px 6px #141414;
+  transition: background 0.5s
+}
+
+button:hover {
+  background-color: #DD0;
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
