@@ -3,6 +3,7 @@ header ul {
     flex-flow: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: center;
     background-color: #EE1E26;
     padding: 20px;
 }
