@@ -23,6 +23,19 @@
     font-size: 25px;
 }
 
+.container button {
+    width: 150px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #FE9400;
+}
+
+.container button:hover { 
+    background-color: #CB7500;
+    cursor: pointer;
+    color: #FFF;
+}
+
 h1 {
     color: #FE9400;
 }
