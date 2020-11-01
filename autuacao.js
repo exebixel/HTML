@@ -41,7 +41,10 @@ function autuacao(event) {
 
     const result = document.querySelector('.result')
 
-    if ( speed - max <= 0 ) {
+    if ( speed == 0 || max == 0 ) {
+        result.innerHTML = "Preencha os dados corretamente!!"
+        result.className = "result grave"
+    } else if ( speed - max <= 0 ) {
         result.innerHTML = "Você não foi autuado!!"
         result.className = "result safe"
     }
@@ -50,15 +53,15 @@ function autuacao(event) {
         result.className = "result warning"
     } 
     else if (percent(max, speed) <= 20) {
-        result.innerHTML = "Autuado!! Infração Grave!!"
-        result.className = "result grave"
+        result.innerHTML = "Autuado!! Infração Media!! <br> Multa: R$130,16 <br> Pontos CNH: 4"
+        result.className = "result media"
     } 
     else if ( percent(max,speed) <= 50) {
-        result.innerHTML = "Autuado!! Infração Gravíssima!!"
-        result.className = "result gravissima"
+        result.innerHTML = "Autuado!! Infração Grave!! <br> Multa: R$195,23 <br> Pontos CNH: 5"
+        result.className = "result grave"
     }
     else if ( percent(max,speed) > 50) {
-        result.innerHTML = "Autuado!! Infração Gravíssima!! <br> Penalidade de suspensão do direito de dirigir."
-        result.className = "result over"
+        result.innerHTML = "Autuado!! Infração Gravíssima!! <br> Multa: R$880,41 <br> Penalidade de suspensão do direito de dirigir."
+        result.className = "result gravissima"
     }
 }

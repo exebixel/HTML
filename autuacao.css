@@ -18,18 +18,18 @@
     background-color: rgb(221, 254, 0);
 }
 
-.grave {
+.media {
     display: block; 
     background-color: rgb(255, 77, 77);
 }
 
-.gravissima {
+.grave {
     display: block; 
     background-color: rgb(255, 0, 0);
     color: white;
 }
 
-.over {
+.gravissima {
     display: block; 
     background-color: rgb(102, 0, 0);
     color: white;
