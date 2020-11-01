@@ -1,0 +1,36 @@
+.result {
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 2%;
+    display: none;
+    text-align: center;
+}
+
+.safe {
+    display: block;
+    background-color: rgb(0, 168, 0);
+}
+
+.warning {
+    display: block; 
+    background-color: rgb(221, 254, 0);
+}
+
+.grave {
+    display: block; 
+    background-color: rgb(255, 77, 77);
+}
+
+.gravissima {
+    display: block; 
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.over {
+    display: block; 
+    background-color: rgb(102, 0, 0);
+    color: white;
+}
