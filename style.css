@@ -14,8 +14,6 @@
     width: 100px;
     height: 40px;
     font-size: 30px;
-    border-radius: 5px;
-    outline: none;
     margin-bottom: 2%;
 }
 
@@ -26,13 +24,21 @@
 .container #check {
     width: 150px;
     font-size: 30px;
-    border-radius: 5px;
     background-color: #FE9400;
 }
 
 .container #check:hover { 
     background-color: #CB7500;
     color: #FFF;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    border-radius: 5px;
 }
 
 button:hover {
