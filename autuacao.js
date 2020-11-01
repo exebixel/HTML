@@ -18,19 +18,26 @@ function percent(total, value) {
 function autuacao(event) {
     const {max, speed} = get_data()
 
+    const result = document.querySelector('.result')
+
     if ( speed - max <= 0 ) {
-        console.log("não foi autuado")
+        result.innerHTML = "Você não foi autuado!!"
+        result.className = "result safe"
     }
     else if (speed - max <= 7) {
-        console.log("até 7")
+        result.innerHTML = "Advertência!!"
+        result.className = "result warning"
     } 
     else if (percent(max, speed) <= 20) {
-        console.log("maior que 7 menor que 20%")
+        result.innerHTML = "Autuado!! Infração Grave!!"
+        result.className = "result grave"
     } 
     else if ( percent(max,speed) <= 50) {
-        console.log("maior que 20% menor que 50%")
+        result.innerHTML = "Autuado!! Infração Gravíssima!!"
+        result.className = "result gravissima"
     }
     else if ( percent(max,speed) > 50) {
-        console.log("maior que 50%")
+        result.innerHTML = "Autuado!! Infração Gravíssima!! <br> Penalidade de suspensão do direito de dirigir."
+        result.className = "result over"
     }
 }
