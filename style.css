@@ -10,18 +10,6 @@
     align-items: center;
 }
 
-/* .center { */
-/*     max-width: 325px; */
-/*     width: 325px; */
-/* } */
-
-/* .row { */
-/*     display: flex; */
-/*     flex-direction: row; */
-/*     justify-content: space-between; */
-/*     margin: 1%; */
-/* } */
-
 .container input[type="number"] {
     width: 100px;
     height: 40px;
