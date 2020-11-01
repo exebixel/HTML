@@ -1,7 +1,28 @@
 const check = document.querySelector('#check')
+const inputs = document.querySelectorAll('input[type="number"]')
 
 
 check.addEventListener('click', autuacao)
+inputs[0].addEventListener('keypress', (event)=>{
+    if ( event.key == 'Enter' ) {
+        if ( inputs[1].value == "" ) {
+            inputs[1].focus()
+        }
+        else {
+            autuacao(event)
+        }
+    }
+})
+inputs[1].addEventListener('keypress', (event)=>{
+    if ( event.key == 'Enter' ) {
+        if ( inputs[0].value == "" ) {
+            inputs[0].focus()
+        }
+        else {
+            autuacao(event)
+        }
+    }
+})
 
 function get_data() {
     const inputs = document.querySelectorAll('input[type="number"]')
