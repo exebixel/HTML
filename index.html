@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Trabalho 3</title>
+    <style type="text/css" media="screen">
+      .result {
+        width: 150px;
+        height: 150px;
+      }
+      input[type="text"] {
+        width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>RGB - Ezequiel Abreu </h2>
+    <hr>
+
+    ( R ) Vermelho:
+    <input type="range" min="0" max="255" name="vermelho" id="vermelho"/>
+    <input type="text" name="numred" id="numred" disabled/>
+    <br>
+
+    ( G ) Verde:
+    <input type="range" min="0" max="255" name="verde" id="verde"/>
+    <input type="text" name="numgreen" id="numgreen" disabled/>
+    <br>
+
+    ( B ) Azul:
+    <input type="range" min="0" max="255" name="azul" id="azul"/>
+    <input type="text" name="numblue" id="numblue" disabled/>
+    <br>
+
+    <br>
+    <center>
+      <div class="result"></div>
+    </center>
+
+    <script src="rgb.js" charset="utf-8"></script>
+  </body>
+</html>
