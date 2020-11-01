@@ -23,19 +23,27 @@
     font-size: 25px;
 }
 
-.container button {
+.container #check {
     width: 150px;
     font-size: 30px;
     border-radius: 5px;
     background-color: #FE9400;
 }
 
-.container button:hover { 
+.container #check:hover { 
     background-color: #CB7500;
-    cursor: pointer;
     color: #FFF;
+}
+
+button:hover {
+    cursor: pointer;
+    outline: none;
 }
 
 h1 {
     color: #FE9400;
+}
+
+.hidden {
+    display: none;
 }
