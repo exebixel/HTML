@@ -25,23 +25,30 @@
 
       <div class="container hidden" id="driver">
         Foi você que quem estava dirigindo nesse momento?
-        <div>
+        <div id="drvbutton">
           <button>Sim</button>
           <button>Não</button>
         </div>
 
         <br>
         <div class="container hidden" id="condutor">
-          Digite o nome do condutor
-          <input type="text" name="name" id="name"/>
-          Digite o número da carteira CNH do condutor
-          <input type="text" name="name" id="name"/>
-        </div>
+          Digite o nome do condutor:
+          <input type="text" name="name" id="name" placeholder="Nome do condutor"/>
+          Digite o número da carteira CNH do condutor:
+          <input type="text" name="name" id="name" placeholder="CNH"/>
 
+          <br>
+          <button id="enviar">Enviar</button>
+
+        </div>
       </div>
+
+      <br>
+      <div class="final"> </div>
 
     </div>
 
     <script src="autuacao.js"> </script>
+    <script src="driver.js"> </script>
   </body>
 </html>
